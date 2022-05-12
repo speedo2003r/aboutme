@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: speedo2003r/blob/main/.github/workflows/blog-post-workflow.yml@master
+      - uses: speedo2003r/blog-post-workflow@master
         with:
           max_post_count: "4"
           feed_list: "https://dev.to/feed/speedo2003r"
